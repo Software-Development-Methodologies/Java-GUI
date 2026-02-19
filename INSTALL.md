@@ -72,6 +72,6 @@
 
 ---
 
-# README
+# INSTALL
 
 ## Java GUI
