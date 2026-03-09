@@ -75,3 +75,64 @@
 # INSTALL
 
 ## Java GUI
+
+This guide explains how to set up, build, and run the project on your local machine.
+
+---
+
+## 1. Prerequisites
+
+Before you begin, ensure you have the following installed on your system:
+
+- **Java Development Kit (JDK):** Version 8 or higher is required to support **AWT** and **Swing** components.
+- **IDE:** Any Java-compatible editor can be used, but **NetBeans** is highly recommended for this coursework.
+- **Git:** Required to clone the repository to your local machine.
+
+---
+
+## 2. Getting Started
+
+### 2.1 Clone the Repository
+
+Open your terminal or command prompt and run:
+
+```bash
+git clone https://github.com/Software-Development-Methodologies/Java-GUI.git
+cd Java-GUI/src
+```
+
+### 2.2 Project Setup in NetBeans
+1. Launch NetBeans IDE.
+2. Go to **File → Open Project**.
+3. Navigate to the cloned repository folder.
+4. Select the project and open it.
+5. Ensure the project libraries are pointing to your installed JDK.
+
+### 2.3 Building the Application
+Since the interfaces are created entirely through code (without a visual designer), the project can be compiled directly.
+
+Steps:
+- Right-click the project in the Projects pane.
+- Select Clean and Build.
+
+---
+
+## 3. Project Structure
+The repository is organized according to the three laboratory exercises.
+
+| Exercise        | Description                   | Components Used                               |
+|----------------|-------------------------------|-----------------------------------------------|
+| Exercise 3.1   | Simple Calculator             | JTextField, JButton, JLabel                   |
+| Exercise 3.2   | Full-Featured Calculator      | GridLayout, JButton, Display Component       |
+| Exercise 3.3   | Pizza Ordering Application    | JRadioButton, JCheckBox, JComboBox           |
+
+---
+
+## 4. Running the Exercises
+To run a specific GUI application:
+- Locate the main class for the exercise (for example `SimpleCalculator.java`).
+- Right-click the file inside NetBeans.
+- Select Run File
+
+or press:
+- Shift + F6
